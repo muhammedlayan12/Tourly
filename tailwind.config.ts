@@ -9,11 +9,33 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+
+        "united-nations-blue": "var(--united-nations-blue)",
+        "bright-navy-blue": "var(--bright-navy-blue)",
+        "spanish-gray": "var(--spanish-gray)",
+        "black-coral": "var(--black-coral)",
+        "oxford-blue": "var(--oxford-blue)",
+        "yale-blue": "var(--yale-blue)",
+        "blue-ncs": "var(--blue-ncs)",
+        "gunmetal": "var(--gunmetal)",
+        "gainsboro": "var(--gainsboro)",
+        "cultured": "var(--cultured)",
+        "white": "var(--white)",
+        "black": "var(--black)",
+        "onyx": "var(--onyx)",
+        "jet": "var(--jet)",
       },
+      fontFamily:{
+        poppins: ["Poppins","sans-serif"],
+        nunito: ["Nunito Sans","sans-serif"],
+        montserrat:["Montserrat","sans-serif"]
+      },
+      screens: {
+        ha: "1107px",
+    },
     },
   },
   plugins: [],
 };
+
 export default config;
